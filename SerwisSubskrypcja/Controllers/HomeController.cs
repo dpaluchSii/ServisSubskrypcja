@@ -6,13 +6,13 @@ using System.Web.Mvc;
 
 namespace SerwisSubskrypcja.Controllers
 { 
-    public class HomeController : Controller
+    public class HomeController : Controller 
     {
         public ActionResult Index()
         {
             return View();
         }
-
+        void doN() { }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
